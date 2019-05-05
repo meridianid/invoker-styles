@@ -79,23 +79,33 @@ How to make use of this styling language?
 
 ## Spaces
 
+Spacing tokens are used for padding, margins, and position coordinates. Each value of spaces are counted based on **16px**.
+
+### Steps
+
+![alt text][space-steps]
+
 ### Inset
 
-### Inline
+![alt text][space-inset]
 
 ### Stack
 
-### Squish
-
-### Stretch
+![alt text][space-stack]
 
 ### Vertical
+
+### Inline
+
+![alt text][space-inline]
 
 ### Horizontal
 
 ---
 
 ## Typography
+
+> Text is one of the main way we can deliver the information to the user. Keeping consist and sticking to logical hierarchies ensures that elements in the UI are clear and easily recognizable when scanning the page.
 
 In our works, we encountered so many type-scale variations. And each of our works, sometimes, has it's own specific requirements regarding the typography.
 
@@ -149,3 +159,9 @@ Caption texts are mainly used for caption, helper, hints, etc. Because of it's s
 
 [cover]: https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/cover-alt.png "Invoker Styles"
 [mission]: https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/mission.png "Invoker Styles"
+
+<!-- SPACES -->
+[space-steps]: https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/space-steps.png "Space Steps"
+[space-inset]: https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/space-inset.png "Space Inset"
+[space-stack]: https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/space-stack.png "Space Stack"
+[space-inline]: https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/space-inline.png "Space Inline"
