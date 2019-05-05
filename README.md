@@ -107,41 +107,41 @@ And to avoid confusion and the burden of having to memorize every names whenever
 
 A really big texts. It's purpose is to attract users attention (i.e a tagline). It's mostly used in a marketing site (i.e. landing page, company profile, event website, etc), and rarely used in mobile app or an internal web app because it will take a huge amount of space.
 
-* **display1**
-* **display2**
-* **display3**
+* **display1** (128/128 - 800)
+* **display2** (96/96 - 800)
+* **display3** (64/64 - 800)
 
 ### Heading
 
 Heading texts used to emphasize the structure of your interfaces. The combination between it's sizes and weights makes your content distinct from each other, hence, helping users when they skim and read them.
 
-* **heading1**
-* **heading2**
-* **heading3**
-* **heading3Alt**
-* **heading4**
-* **heading4Alt**
-* **heading5**
-* **heading5Alt**
-* **heading6**
-* **heading6Alt**
+* **heading1** (46/52 - 700)
+* **heading2** (32/36 - 700)
+* **heading3** (24/30 - 700)
+* **heading3Alt** (24/30 - 500)
+* **heading4** (18/26 - 700)
+* **heading4Alt** (18/26 - 500)
+* **heading5** (16/22 - 500)
+* **heading5Alt** (16/22 - 700)
+* **heading6** (14/18 - 500)
+* **heading6Alt** (14/18 - 700)
 
 ### Body
 
 Body texts primarily used for paragraphs.
 
-* **bodyLarge**
-* **bodyMedium**
-* **bodySmall**
+* **bodyLarge** (18/26 - 400)
+* **bodyMedium** (16/22 - 400)
+* **bodySmall** (14/18 - 400)
 
 ### Caption
 
-Caption texts are mainly used for caption, helper, hints, etc. Because of it's size, be sure to make your caption texts compatible to a11y requirements.
+Caption texts are mainly used for caption, helper, hints, etc. Because of it's size, be sure to make your caption's color comply to a11y requirements.
 
-* **captionSmall**
-* **captionSmallAlt**
-* **captionLarge**
-* **captionLargeAlt**
+* **captionSmall** (11/12 - 400)
+* **captionSmallAlt** (11/12 - 500)
+* **captionLarge** (12/16 - 400)
+* **captionLargeAlt** (12/16 - 500)
 
 ---
 
