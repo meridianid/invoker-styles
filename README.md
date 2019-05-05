@@ -87,19 +87,29 @@ Spacing tokens are used for padding, margins, and position coordinates. Each val
 
 ### Inset
 
+A spacing area on all four sides of the box.
+
 ![alt text][space-inset]
 
 ### Stack
+
+Add spacing area at the bottom side of the box.
 
 ![alt text][space-stack]
 
 ### Vertical
 
+Extending the stack concept, vertical adds spaces at the top and bottom side of the box.
+
 ### Inline
+
+Add spacing area at the right side of the box.
 
 ![alt text][space-inline]
 
 ### Horizontal
+
+Expanding the inline concept, horizontal adds spaces at the left and right side of the box.
 
 ---
 
