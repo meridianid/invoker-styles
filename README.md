@@ -29,6 +29,7 @@
     * [Heading](#heading)
     * [Body](#body)
     * [Caption](#caption)
+7. [Style Tokens](#style-tokens)
 
 ## Overview
 
@@ -104,119 +105,47 @@ And to avoid confusion and the burden of having to memorize every names whenever
 
 ### Display
 
-A really big size of text. It's suitable to attract the user attentions (i.e a tagline). It's mostly used in a marketing site (i.e. landing page, company profile, event website, etc), and rarely used in mobile app or an internal web app because it will take a huge amount of space.
+A really big texts. It's purpose is to attract users attention (i.e a tagline). It's mostly used in a marketing site (i.e. landing page, company profile, event website, etc), and rarely used in mobile app or an internal web app because it will take a huge amount of space.
 
-#### Display1
-
-```scss
-font-size: ;
-line-height: ;
-```
-
-#### Display2
-
-```scss
-font-size: ;
-line-height: ;
-```
-
-#### Display3
-
-```scss
-font-size: ;
-line-height: ;
-```
+* **display1**
+* **display2**
+* **display3**
 
 ### Heading
 
 Heading texts used to emphasize the structure of your interfaces. The combination between it's sizes and weights makes your content distinct from each other, hence, helping users when they skim and read them.
 
-#### Heading1
-
-```scss
-font-size: ;
-line-height: ;
-```
-
-#### Heading2
-
-```scss
-font-size: ;
-line-height: ;
-```
-
-#### Heading3
-
-```scss
-font-size: ;
-line-height: ;
-```
-
-#### Heading4
-
-```scss
-font-size: ;
-line-height: ;
-```
-
-#### Heading5
-
-```scss
-font-size: ;
-line-height: ;
-```
-
-#### Heading6
-
-```scss
-font-size: ;
-line-height: ;
-```
+* **heading1**
+* **heading2**
+* **heading3**
+* **heading3Alt**
+* **heading4**
+* **heading4Alt**
+* **heading5**
+* **heading5Alt**
+* **heading6**
+* **heading6Alt**
 
 ### Body
 
 Body texts primarily used for paragraphs.
 
-#### BodyLarge
-
-```scss
-font-size: ;
-line-height: ;
-```
-
-#### BodyMedium
-
-```scss
-font-size: ;
-line-height: ;
-```
-
-#### BodySmall
-
-```scss
-font-size: ;
-line-height: ;
-```
+* **bodyLarge**
+* **bodyMedium**
+* **bodySmall**
 
 ### Caption
 
 Caption texts are mainly used for caption, helper, hints, etc. Because of it's size, be sure to make your caption texts compatible to a11y requirements.
 
-#### CaptionSmall
-
-```scss
-font-size: ;
-line-height: ;
-```
-
-#### CaptionLarge
-
-```scss
-font-size: ;
-line-height: ;
-```
+* **captionSmall**
+* **captionSmallAlt**
+* **captionLarge**
+* **captionLargeAlt**
 
 ---
+
+## Style Tokens
 
 [cover]: https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/cover-alt.png "Invoker Styles"
 [mission]: https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/mission.png "Invoker Styles"
