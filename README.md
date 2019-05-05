@@ -1,13 +1,34 @@
+![alt text][cover]
+[![alt text][mission]](http://meridian.id)
+
 # Invoker Styles
-> **WIP**, it's an initial release. Full-documentation is coming super soon.
 
 1. [Overview](#overview)
     * [What it is](#what-it-is)
     * [What is is NOT](#what-it-is-not)
 2. [Getting Started](#getting-started)
-3. [Color](#color)
-4. [Space](#space)
-5. [Typography](#typography)
+3. [Principles](#principles)
+    * [A11y First](#a11y-first)
+    * [Gestalt](#gestlat)
+4. [Colors](#colors)
+    * [Brands](#brand)
+    * [Darks](#darks)
+    * [Light](#light)
+    * [Tone](#tone)
+    * [Backgrounds](#backgrounds)
+5. [Spaces](#spaces)
+    * [Inset](#inset)
+    * [Inline](#inline)
+    * [Stack](#Stack)
+    * [Squish](#squish)
+    * [Stretch](#stretch)
+    * [Vertical](#vertical)
+    * [Horizontal](#horizontal)
+6. [Typography](#typography)
+    * [Display](#display)
+    * [Heading](#heading)
+    * [Body](#body)
+    * [Caption](#caption)
 
 ## Overview
 
@@ -33,14 +54,57 @@ How to make use of this styling language?
 
 ---
 
-## Color
+## Principles
+
+## A11y First
+
+## Gestalt
 
 ---
 
-## Space
+## Colors
+
+### Brands
+
+### Darks
+
+### Light
+
+### Tone
+
+### Backgrounds
+
+---
+
+## Spaces
+
+### Inset
+
+### Inline
+
+### Stack
+
+### Squish
+
+### Stretch
+
+### Vertical
+
+### Horizontal
 
 ---
 
 ## Typography
 
+### Display
+
+### Heading
+
+### Body
+
+### Caption
+
 ---
+
+[cover]: https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/cover-alt.png "Invoker Styles"
+[mission]: https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/mission.png "Invoker Styles"
