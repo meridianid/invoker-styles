@@ -46,7 +46,23 @@ It is not a CSS framework, UI library, or any kind of framework
 
 ## Getting Started
 
-How to make use of this styling language?
+Because of the nature of consultancy works, we can't use a single brand for all of our clients. Hence, for now, the only way to use the implementation of SCSS without doing too many overwrites is by manually copying the whole modules folder and change all the tokens values according to the project brand.
+
+If you are using relative path, add an entry point like `tokens.scss`  in your `src` would make it easier for you to import the files within your styles. Because you would likely to import the style tokens for each of your styles. But if you are using the invoker starters, need not to worry, the setup is already done for you.
+
+But if you just tinkering around and want to use the brand of Meridian.id in your project, you can add the modules as packages to your project through npm.
+
+```shell
+npm install --save invoker-base invoker-layout invoker-tokens
+```
+
+or if you are using `yarn`
+
+```shell
+yarn add invoker-base invoker-layout invoker-tokens
+```
+
+Then, you can just import the modules in your styles using `@import '~invoker-tokens/index.scss';` and the same for others.
 
 ---
 
@@ -161,6 +177,10 @@ Caption texts are mainly used for caption, helper, hints, etc. Because of it's s
 ---
 
 ## Style Tokens
+
+### Layers with z-index
+
+### Elevation with box-shadow
 
 [cover]: https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/cover-alt.png "Invoker Styles"
 [mission]: https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/mission.png "Invoker Styles"
