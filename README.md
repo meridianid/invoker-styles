@@ -11,7 +11,7 @@
     * [A11y First](#a11y-first)
     * [Gestalt](#gestlat)
 4. [Colors](#colors)
-    * [Brands](#brand)
+    * [Brands](#brands)
     * [Darks](#darks)
     * [Light](#light)
     * [Tone](#tone)
