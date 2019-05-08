@@ -78,13 +78,311 @@ Then, you can just import the modules in your styles using `@import '~invoker-to
 
 ### Brands
 
+#### Primary Colors - Sea
+
+```scss
+$brand-primary-100 // Default for large text
+$brand-primary-200 // Default for small text
+$brand-primary-300 // Hover and tap
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/sea-100.png "Sea 100 - #37A4A0")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/sea-200.png "Sea 200 - #008380")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/sea-300.png "Sea 300 - #00514F")
+
+#### Secondary Colors - Scarlet
+
+```scss
+$brand-secondary-100  // Default for large text
+$brand-secondary-200  // Default for small text
+$brand-secondary-300  // Hover and tap
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/scarlet-100.png "Scarlet 100 - #FD5C63")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/scarlet-200.png "Scarlet 200 - #D43242")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/scarlet-300.png "Scarlet 300 - #9A202C")
+
+#### Accents Colors
+
+> Jeans
+
+```scss
+$brand-jeans-100
+$brand-jeans-200
+$brand-jeans-300
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/jeans-100.png "Jeans 100 - #5773C2")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/jeans-200.png "Jeans 200 - #3F46AD")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/jeans-300.png "Jeans 300 - #182385")
+
+> Plum
+
+```scss
+$brand-plum-100
+$brand-plum-200
+$brand-plum-300
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/plum-100.png "Plum 100 - #A18DAD")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/plum-200.png "Plum 200 - #866D96")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/plum-300.png "Plum 300 - #51425B")
+
+> Sage
+
+```scss
+$brand-sage-100
+$brand-sage-200
+$brand-sage-300
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/sage-100.png "Sage 100 - #56A472")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/sage-200.png "Sage 200 - #2C864C")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/sage-300.png "Sage 300 - #1B512E")
+
+> Sky
+
+```scss
+$brand-sky-100
+$brand-sky-200
+$brand-sky-300
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/sky-100.png "Sky 100 - #4A9BDA")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/sky-200.png "Sky 200 - #267ABC")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/sky-300.png "Sky 300 - #184C75")
+
 ### Darks
+
+> Mainly for Text colors
+
+All `dark colors` are tested with white background `#FFFFFF` and comply with the a11y contrast ration WCAG AA. For usage with bacgkround color other than white, please do some test on your own.
+
+```SCSS
+// Colors using alpha value.
+// Preferable!
+$dark-alpha-90
+$dark-alpha-80
+$dark-alpha-70
+$dark-alpha-60
+$dark-alpha-50
+// Lighter dark color -- For Borders and Shadow
+$dark-alpha-40
+$dark-alpha-30
+$dark-alpha-20
+$dark-alpha-10
+
+// HEX Value
+// Use this when you are sure about it or when it's necessary, i.e. alpha value not widely supported for developing HTML email
+$dark-hex-90 // Headings
+$dark-hex-80 // Headings and Body texts in text-heavy page such as blog post
+$dark-hex-70 // Body texts
+$dark-hex-60 // Captions and subtitles
+$dark-hex-50 // Icons
+// Lighter dark color -- For Borders and Shadow
+$dark-hex-40
+$dark-hex-30
+$dark-hex-20
+$dark-hex-10
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/dark-90.png "Dark 90 - #0F0F0F")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/dark-80.png "Dark 80 - #292929")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/dark-70.png "Dark 70 - #484848")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/dark-60.png "Dark 60 - #767676")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/dark-50.png "Dark 50 - #8F8F8F")
 
 ### Light
 
+```SCSS
+// Colors using alpha value.
+// Preferable!
+// ALPHA
+$light-alpha-100
+$light-alpha-90
+$light-alpha-80
+$light-alpha-70
+$light-alpha-60
+$light-alpha-50
+$light-alpha-40
+$light-alpha-30
+$light-alpha-20
+$light-alpha-10
+
+// HEX
+$light-hex-100
+$light-hex-90
+$light-hex-80
+$light-hex-70
+
+```
+
 ### Tone
 
+#### Danger - Rose
+
+```scss
+$sys-danger-100 // Use for Danger Background or Large text
+$sys-danger-200 // Default for small text
+$sys-danger-300 // Hover, active, focus and tap
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/rose-100.png "Rose 100 - #FD5C63")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/rose-200.png "Rose 200 - #ED0001")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/rose-300.png "Rose 300 - #B50008")
+
+#### Warning - Amber
+
+> Only use these palettes as background color and use at least `$dark-60` as text for the warning.
+
+```scss
+$sys-warning-100
+$sys-warning-200
+$sys-warning-300
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/amber-100.png "Amber 100 - #FFE380")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/amber-200.png "Amber 200 - #FFAB00")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/amber-300.png "Amber 300 - #FF8B00")
+
+#### Success - Verdant
+
+```scss
+$sys-success-100 // Use for success background
+$sys-success-200 // Default for small text
+$sys-success-300 // Hover, active, focus and tap
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/verdant-100.png "Verdant 100 - #57D9A3")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/verdant-200.png "Verdant 200 - #00875A")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/verdant-300.png "Verdant 300 - #006644")
+
 ### Backgrounds
+
+> Use these colors for background only.
+
+All the background colors already tested and comply with contrast ratio **WCAG AA** for usage with `$dark-70`, `$dark-80`, and `$dark-90` texts.
+For usage with `$dark-50` text, you can see the test result on each card.
+
+### Dust
+
+```scss
+$bg-dust-100
+$bg-dust-200
+$bg-dust-300
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-dust-100.png "Dust 100 - #F7F7F5")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-dust-200.png "Dust 200 - #F0F0EE")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-dust-300.png "Dust 300 - #B7B7AD")
+
+### Rose
+
+```scss
+$bg-rose-100
+$bg-rose-200
+$bg-rose-300
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-rose-100.png "Rose 100 - #FCE7DD")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-rose-200.png "Rose 200 - #E3CDD1")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-rose-300.png "Rose 300 - #D8BAC0")
+
+### Scarlet
+
+```scss
+$bg-scarlet-100
+$bg-scarlet-200
+$bg-scarlet-300
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-scarlet-100.png "Scarlet 100 - #FFEAEE")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-scarlet-200.png "Scarlet 200 - #FFC4CF")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-scarlet-300.png "Scarlet 300 - #FFA2B3")
+
+### Sea
+
+```scss
+$bg-sea-100
+$bg-sea-200
+$bg-sea-300
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-sea-100.png "Sea 100 - #D7EFEE")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-sea-200.png "Sea 200 - #A9DCD7")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-sea-300.png "Sea 300 - #92D3CC")
+
+### Plum
+
+```scss
+$bg-plum-100
+$bg-plum-200
+$bg-plum-300
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-plum-100.png "Plum 100 - #DFD8E3")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-plum-200.png "Plum 200 - #D4D0E3")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-plum-300.png "Plum 300 - #BEB8D5")
+
+### Sage
+
+```scss
+$bg-sage-100
+$bg-sage-200
+$bg-sage-300
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-sage-100.png "Sage 100 - #E8F3EC")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-sage-200.png "Sage 200 - #CAD8B4")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-sage-300.png "Sage 300 - #B7CA9A")
+
+### Sky
+
+```scss
+$bg-sky-100
+$bg-sky-200
+$bg-sky-300
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-sky-100.png "Sky 100 - #E2EFF9")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-sky-200.png "Sky 200 - #B7D7F0")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-sky-300.png "Sky 300 - #91C2E8")
+
+### Verdant
+
+```scss
+$bg-verdant-100
+$bg-verdant-200
+$bg-verdant-300
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-verdant-100.png "Verdant 100 - #E4FDEB")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-verdant-200.png "Verdant 200 - #D9FCE3")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-verdant-300.png "Verdant 300 - #A9EEBC")
+
+### Banana
+
+```scss
+$bg-banana-100
+$bg-banana-200
+$bg-banana-300
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-banana-100.png "Banana 100 - #FFFDDD")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-banana-200.png "Banana 200 - #FFFBBB")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-banana-300.png "Banana 300 - #FFFE95")
+
+### Sand
+
+```scss
+$bg-sand-100
+$bg-sand-200
+$bg-sand-300
+```
+
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-sand-100.png "Sand 100 - #F6F1E4")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-sand-200.png "Sand 200 - #E0D0B7")
+![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/bg-sand-300.png "Sand 300 - #D8C4A5")
 
 ---
 
