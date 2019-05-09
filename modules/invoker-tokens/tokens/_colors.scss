@@ -167,16 +167,18 @@ $light-hex-90               : #dcdcdc;
 $light-hex-80               : #c0c0c0;
 $light-hex-70               : #9c9c9c;
 
-// System colors
-$sys-danger-100             : #FF603F; // Use for Danger Background or Large text
-$sys-danger-200             : #E42700; // Default for small text
-$sys-danger-300             : #940D00; // Hover, active, focus and tap
-$sys-warning-100            : #FFE380;
-$sys-warning-200            : #FFAB00;
-$sys-warning-300            : #FF8B00;
-$sys-success-100            : #57D9A3; // Use for success background
-$sys-success-200            : #00875A; // Default for small text
-$sys-success-300            : #006644; // Hover, active, focus and tap
+// Tone colors
+$tone-danger-100             : #FF603F; // Use for Danger Background or Large text
+$tone-danger-200             : #E42700; // Default for small text
+$tone-danger-300             : #940D00; // Hover, active, focus and tap
+
+$tone-warning-100            : #FFE380;
+$tone-warning-200            : #FFAB00;
+$tone-warning-300            : #FF8B00;
+
+$tone-success-100            : #57D9A3; // Use for success background
+$tone-success-200            : #00875A; // Default for small text
+$tone-success-300            : #006644; // Hover, active, focus and tap
 
 // Background Colors
 // Only use this colors for background

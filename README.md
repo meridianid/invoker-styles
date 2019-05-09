@@ -104,7 +104,7 @@ $brand-secondary-300  // Hover and tap
 
 #### Accents Colors
 
-> Jeans
+* Jeans
 
 ```scss
 $brand-jeans-100
@@ -116,7 +116,7 @@ $brand-jeans-300
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/jeans-200.png "Jeans 200 - #3F46AD")
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/jeans-300.png "Jeans 300 - #182385")
 
-> Plum
+* Plum
 
 ```scss
 $brand-plum-100
@@ -128,7 +128,7 @@ $brand-plum-300
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/plum-200.png "Plum 200 - #866D96")
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/plum-300.png "Plum 300 - #51425B")
 
-> Sage
+* Sage
 
 ```scss
 $brand-sage-100
@@ -140,7 +140,7 @@ $brand-sage-300
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/sage-200.png "Sage 200 - #2C864C")
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/sage-300.png "Sage 300 - #1B512E")
 
-> Sky
+* Sky
 
 ```scss
 $brand-sky-100
@@ -222,9 +222,9 @@ $light-hex-70
 #### Danger - Rose
 
 ```scss
-$sys-danger-100 // Use for Danger Background or Large text
-$sys-danger-200 // Default for small text
-$sys-danger-300 // Hover, active, focus and tap
+$tone-danger-100 // Use for Danger Background or Large text
+$tone-danger-200 // Default for small text
+$tone-danger-300 // Hover, active, focus and tap
 ```
 
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/rose-100.png "Rose 100 - #FD5C63")
@@ -236,9 +236,9 @@ $sys-danger-300 // Hover, active, focus and tap
 > Only use these palettes as background color and use at least `$dark-60` as text for the warning.
 
 ```scss
-$sys-warning-100
-$sys-warning-200
-$sys-warning-300
+$tone-warning-100
+$tone-warning-200
+$tone-warning-300
 ```
 
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/amber-100.png "Amber 100 - #FFE380")
@@ -248,9 +248,9 @@ $sys-warning-300
 #### Success - Verdant
 
 ```scss
-$sys-success-100 // Use for success background
-$sys-success-200 // Default for small text
-$sys-success-300 // Hover, active, focus and tap
+$tone-success-100 // Use for success background
+$tone-success-200 // Default for small text
+$tone-success-300 // Hover, active, focus and tap
 ```
 
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/verdant-100.png "Verdant 100 - #57D9A3")
