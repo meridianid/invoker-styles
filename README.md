@@ -78,7 +78,9 @@ Then, you can just import the modules in your styles using `@import '~invoker-to
 
 ### Brands
 
-#### Primary Colors - Sea
+Communicate the brand colors using `brand-primary` and `brand-secondary` name. Usually 2 main colors is enough, but if you really need to push the limit, make it to `brand-tertiary`.
+
+#### Brand Primary
 
 ```scss
 $brand-primary-100 // Default for large text
@@ -90,7 +92,7 @@ $brand-primary-300 // Hover and tap
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/sea-200.png "Sea 200 - #008380")
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/sea-300.png "Sea 300 - #00514F")
 
-#### Secondary Colors - Scarlet
+#### Brand Secondary
 
 ```scss
 $brand-secondary-100  // Default for large text
@@ -104,7 +106,9 @@ $brand-secondary-300  // Hover and tap
 
 #### Accents Colors
 
-* Jeans
+Below is some pre-defined and a11y tested accents colors that you can use in your projects.
+
+##### JEANS
 
 ```scss
 $brand-jeans-100
@@ -116,7 +120,7 @@ $brand-jeans-300
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/jeans-200.png "Jeans 200 - #3F46AD")
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/jeans-300.png "Jeans 300 - #182385")
 
-* Plum
+##### PLUM
 
 ```scss
 $brand-plum-100
@@ -128,7 +132,7 @@ $brand-plum-300
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/plum-200.png "Plum 200 - #866D96")
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/plum-300.png "Plum 300 - #51425B")
 
-* Sage
+##### SAGE
 
 ```scss
 $brand-sage-100
@@ -140,7 +144,7 @@ $brand-sage-300
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/sage-200.png "Sage 200 - #2C864C")
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/sage-300.png "Sage 300 - #1B512E")
 
-* Sky
+##### SKY
 
 ```scss
 $brand-sky-100
@@ -219,7 +223,7 @@ $light-hex-70
 
 ### Tone
 
-#### Danger - Rose
+#### Danger
 
 ```scss
 $tone-danger-100 // Use for Danger Background or Large text
@@ -231,7 +235,7 @@ $tone-danger-300 // Hover, active, focus and tap
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/rose-200.png "Rose 200 - #ED0001")
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/rose-300.png "Rose 300 - #B50008")
 
-#### Warning - Amber
+#### Warning
 
 > Only use these palettes as background color and use at least `$dark-60` as text for the warning.
 
@@ -245,7 +249,7 @@ $tone-warning-300
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/amber-200.png "Amber 200 - #FFAB00")
 ![alt-text](https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/colors/amber-300.png "Amber 300 - #FF8B00")
 
-#### Success - Verdant
+#### Success
 
 ```scss
 $tone-success-100 // Use for success background
@@ -261,8 +265,10 @@ $tone-success-300 // Hover, active, focus and tap
 
 > Use these colors for background only.
 
-All the background colors already tested and comply with contrast ratio **WCAG AA** for usage with `$dark-70`, `$dark-80`, and `$dark-90` texts.
-For usage with `$dark-50` text, you can see the test result on each card.
+Here are the sets of colors that you can use as background colors in your project.
+
+All the background colors already tested and comply with contrast ratio **WCAG AA** for usages with `$dark-70`, `$dark-80`, and `$dark-90` texts.
+If you want to use them with `$dark-50` text, you can see the test result on each card.
 
 ### Dust
 
