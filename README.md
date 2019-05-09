@@ -9,7 +9,7 @@
 2. [Getting Started](#getting-started)
 3. [Principles](#principles)
     * [A11y First](#a11y-first)
-    * [Gestalt](#gestlat)
+    * [Gestalt](#gestalt)
 4. [Colors](#colors)
     * [Brands](#brands)
     * [Darks](#darks)
@@ -70,7 +70,25 @@ Then, you can just import the modules in your styles using `@import '~invoker-to
 
 ### A11y First
 
+A11ly is one of our main concerns when building products. Although we are still learning on how to make a fully accessible products, at least we can start with the easy one first, and that is contrast ratio of texts.
+
+A low contrast text make it harder for people to read the content in your design. So, before you decide to use some colors for your design, make sure to have it tested first and comply with the WCAG standard.
+
+You can use these browser-based tools to have your colors tested:
+
+* [https://colorable.jxnblk.com](https://colorable.jxnblk.com)
+* [https://contrastchecker.com](https://contrastchecker.com)
+* [http://accessible-colors.com](http://accessible-colors.com)
+
+The minimum contrast needed for your text to have good level of readibility or comply with the a11y standard is depend on it's size and weight. A bigger and bolder texts are easier to read, while a smaller text with thin weight needs a higher color contrast to have better readibility.
+
+To have good readibility, the minimum requirement is to comply with contrast ratio of WCAG AA (>= 4.5) for **small-text** and WCAG AA Large (>=3.00) for **large-text**.
+
+The term **Large-text** is for text with >= 18pt for regular weight, or text with size >= 14pt for bold weight. You can learn more about it [here](https://www.w3.org/TR/WCAG20/#larger-scaledef)
+
 ### Gestalt
+
+Will add the content later, for now you can learn about gestalt principles [here](https://www.usertesting.com/blog/gestalt-principles/)
 
 ---
 
