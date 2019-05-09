@@ -28,7 +28,6 @@
     * [Heading](#heading)
     * [Body](#body)
     * [Caption](#caption)
-7. [Style Tokens](#style-tokens)
 
 ## Overview
 
@@ -495,14 +494,6 @@ Caption texts are mainly used for caption, helper, hints, etc. Because of it's s
 * **captionSmallAlt** (11/12 - 500)
 * **captionLarge** (12/16 - 400)
 * **captionLargeAlt** (12/16 - 500)
-
----
-
-## Style Tokens
-
-### Layers with z-index
-
-### Elevation with box-shadow
 
 [cover]: https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/cover-alt.png "Invoker Styles"
 [mission]: https://raw.githubusercontent.com/meridianid/invoker-styles/master/docs/mission.png "Invoker Styles"
